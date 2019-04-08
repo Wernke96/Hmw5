@@ -6,11 +6,14 @@ public class BSTWithFastIter<E extends Comparable<E>> extends BST {
     private E lastReturned = null;
 
     public BSTWithFastIter() {
-
+        super();
     }
     public BSTWithFastIter(E[] objects) {
         for (int i = 0; i < objects.length; i++)
             super.add( objects[i]);
+    }
+    public void add (E e){
+        super.add(e);
     }
     public java.util.Iterator<E> iterator() {
         return new Iterator();

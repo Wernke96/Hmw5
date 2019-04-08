@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2468f81-2d6c-4829-9664-fb9a109fe1c7" name="Default" comment="" />
+    <list default="true" id="d2468f81-2d6c-4829-9664-fb9a109fe1c7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hm5/BSTWithFastIter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hm5/BSTWithFastIter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BSTWithFastIter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BSTWithFastIter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestBSTWithFastIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestBSTWithFastIterator.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,21 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestBSTWithFastIterator.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestBSTWithFastIterator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestBSTWithFastIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="182">
+              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BSTWithFastIter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BSTWithFastIter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BSTWithFastIter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-214">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="795">
+              <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
               <folding>
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
                 <element signature="e#457#458#0" expanded="true" />
                 <element signature="e#494#495#0" expanded="true" />
               </folding>
@@ -68,12 +75,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/BST.java" />
         <option value="$PROJECT_DIR$/src/TestFindKthSmallest.java" />
         <option value="$PROJECT_DIR$/src/BSTWithFastIter.java" />
+        <option value="$PROJECT_DIR$/src/TestBSTWithFastIterator.java" />
       </list>
     </option>
   </component>
@@ -92,6 +103,7 @@
     <option name="width" value="1400" />
     <option name="height" value="877" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -199,12 +211,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554745079344</updated>
-      <workItem from="1554745085715" duration="5829000" />
+      <workItem from="1554745085715" duration="7846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5829000" />
+    <option name="totallyTimeSpent" value="7846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1400" height="877" extended-state="0" />
@@ -219,12 +231,12 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32893" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32893" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32893" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4980315" visible="true" weight="0.2496318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4980315" visible="true" weight="0.2496318" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" sideWeight="0.5019685" side_tool="true" visible="true" weight="0.2496318" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -247,10 +259,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TestBSTWithFastIterator.java">
+    <entry file="file://$PROJECT_DIR$/src/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="-2850">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#6048#6049#0" expanded="true" />
+            <element signature="e#6086#6087#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -264,25 +280,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BST.java">
+    <entry file="file://$PROJECT_DIR$/src/BSTWithFastIter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2850">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="795">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
           <folding>
-            <element signature="e#6048#6049#0" expanded="true" />
-            <element signature="e#6086#6087#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BSTWithFastIter.java">
+    <entry file="file://$PROJECT_DIR$/src/TestBSTWithFastIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="182">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>

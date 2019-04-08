@@ -27,6 +27,7 @@ public class TestBSTWithFastIterator {
 			int value = rand.nextInt();
 			bst.add(value);
 			bstWithFastIter.add(value);
+
 		}
 		long endTime = System.currentTimeMillis();
 		double seconds = (endTime - startTime) / 1000.0;
