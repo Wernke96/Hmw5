@@ -10,7 +10,7 @@ public class BSTWithFastIter<E extends Comparable<E>> extends BST {
     }
     public BSTWithFastIter(E[] objects) {
         for (int i = 0; i < objects.length; i++)
-            add(objects[i]);
+            super.add( objects[i]);
     }
     public java.util.Iterator<E> iterator() {
         return new Iterator();
@@ -21,7 +21,7 @@ public class BSTWithFastIter<E extends Comparable<E>> extends BST {
 
             }
         public boolean hasNext() {
-            if (current != null && !stack.empty())
+            if (current != null&& !stack.empty())
                 return true;
             else
                 return false;
