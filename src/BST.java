@@ -108,7 +108,7 @@ public class BST<E extends Comparable<E>> implements Tree<E> {
   }
 
   /** This inner class is static, because it does not access
-      any instance members defined in its outer class */
+   any instance members defined in its outer class */
   public static class TreeNode<E> {
     protected E element;
     protected TreeNode<E> left;
@@ -132,7 +132,7 @@ public class BST<E extends Comparable<E>> implements Tree<E> {
   /** Returns a path from the root leading to the specified element */
   public java.util.ArrayList<TreeNode<E>> path(E e) {
     java.util.ArrayList<TreeNode<E>> list =
-      new java.util.ArrayList<>();
+            new java.util.ArrayList<>();
     TreeNode<E> current = root; // Start from the root
 
     while (current != null) {
@@ -222,7 +222,7 @@ public class BST<E extends Comparable<E>> implements Tree<E> {
   private class InorderIterator implements java.util.Iterator<E> {
     // Store the elements in a list
     private java.util.ArrayList<E> list =
-      new java.util.ArrayList<>();
+            new java.util.ArrayList<>();
     private int current = 0; // Index of next element in the iteration
     private boolean canRemove = false;
 
@@ -251,16 +251,16 @@ public class BST<E extends Comparable<E>> implements Tree<E> {
     @Override /** Get the current element and move to the next */
     public E next() {
       if (hasNext())
-      	  canRemove = true;
+        canRemove = true;
       else
-      	  throw new java.util.NoSuchElementException();
+        throw new java.util.NoSuchElementException();
       return list.get(current++);
     }
 
     @Override /** Remove the element most recently returned */
     public void remove() {
       if (!canRemove)
-      	  throw new IllegalStateException();
+        throw new IllegalStateException();
       delete(list.get(--current));
       list.remove(current);
       canRemove = false;

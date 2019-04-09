@@ -24,8 +24,32 @@ public class AVLTree<E extends Comparable<E>> extends BST<E> {
 
     return true; // e is inserted
   }
+  public E find(int k){
+    if(size > k&& k < 1 )
+      return null;
+    else
+      return find (k, (AVLTreeNode<E>)super.root);
+  }
+public E find(int k , AVLTreeNode<E> root){
+      AVLTreeNode<E> A = (AVLTreeNode<E>) root.left;
+      AVLTreeNode<E> B = (AVLTreeNode<E>) root.right;
+      if (A == null && k == 1)
+        return root.element;
+      if (B == null && k == 2)
+      return B.element;
+      if (k <= A.size + 1)
+        return find(k, A);
+      if (k == A.size + 1)
+      return root.element;
+      if (k>A.size+1)
+        return find(k-A.size-1 ,B);
 
-  /** Update the height of a specified node */
+
+
+
+return find(k,root);
+}
+//  /** Update the height of a specified node */
   private void updateHeight(AVLTreeNode<E> node) {
     if (node.left == null && node.right == null) // node is a leaf
       node.height = 0;
@@ -253,9 +277,12 @@ public class AVLTree<E extends Comparable<E>> extends BST<E> {
     return true; // Element inserted
   }
 
+
+
   /** AVLTreeNode is TreeNode plus height */
   protected static class AVLTreeNode<E> extends BST.TreeNode<E> {
     protected int height = 0; // New data field
+    protected int size = 1;
 
     public AVLTreeNode(E o) {
       super(o);
